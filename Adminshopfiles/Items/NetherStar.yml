@@ -1,0 +1,37 @@
+ShopName: NetherStar
+DisplayName: '&9&lNether Star'
+Command: netherstar
+signs:
+  text: '[Nether Star]'
+  NeedPermissionToCreateSign: true
+shop:
+  NetherStarBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Nether Star for &f8,000 &cMums'
+    - name:&9Buy Nether Star
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:NETHER_STAR
+      - amount:1
+    PriceType: MONEY
+    Price: 8000
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13    
+
+  NetherStar1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Nether Star'
+    - 'lore1:&cClick &aRed &cto sell 1 Nether Star'
+    - name:&9Buy Nether Star
+    - amount:1
+    - type:NETHER_STAR
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+

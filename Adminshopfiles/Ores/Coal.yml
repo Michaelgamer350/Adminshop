@@ -1,0 +1,120 @@
+ShopName: Coal
+DisplayName: '&9&lCoal'
+Command: coal
+signs:
+  text: '[Coal]'
+  NeedPermissionToCreateSign: true
+shop:
+  CoalBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Coal for &f3.91 &cMums'
+    - name:&9Buy Coal
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:COAL
+      - amount:1
+    PriceType: MONEY
+    Price: 3.91
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  CoalBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Coal for &f125 &cMums'
+    - name:&9Buy Coal
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:COAL
+      - amount:32
+    PriceType: MONEY
+    Price: 125
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  CoalBuy3:
+    MenuItem:
+    #I think this price is ridiculous, but I need input before I am willing to change it. I'll keep a close
+    #eye on monitoring this one on release. I did lower it by 25 though.
+    - 'lore1:&bLeft Click &cto buy 64 Coal for &f250 &cMums'
+    - name:&9Buy Coal
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:COAL
+      - amount:64
+    PriceType: MONEY
+    Price: 250
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  Coal1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Coal'
+    - 'lore1:&cClick &aRed &cto sell 1 Coal'
+    - name:&9Buy Coal
+    - amount:1
+    - type:COAL
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  Coal2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Coal'
+    - 'lore1:&cClick &aRed &cto sell 32 Coal'
+    - name:&9Buy Coal
+    - amount:32
+    - type:COAL
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  Coal3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Coal'
+    - 'lore1:&cClick &aRed &cto sell 64 Coal'
+    - name:&9Buy Coal
+    - amount:64
+    - type:COAL
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    
+  CoalSell3:
+    MenuItem:
+    #Since coal is so easily influenced by fortune this cost needed to be lowered to avoid abuse.
+    - 'lore1:&bLeft Click &cto sell 64 Coal for &f30 &cMums'
+    - name:&9Sell Coal
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: MONEY
+    Reward: 30
+    PriceType: ITEM
+    Price:
+    - - type:COAL 
+      - amount:64
+    Message: '&eYou just sold &f%price%&e!'
+    ExtraPermission: ''
+    InventoryLocation: 33

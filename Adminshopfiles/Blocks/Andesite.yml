@@ -1,0 +1,117 @@
+ShopName: Andesite
+DisplayName: '&9&lAndesite'
+Command: andesite
+signs:
+  text: '[Andesite]'
+  NeedPermissionToCreateSign: true
+shop:
+  AndesiteBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Andesite for &f1.17 &cMums'
+    - name:&9Buy Andesite
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:1;5
+      - amount:1
+    PriceType: MONEY
+    Price: 1.17
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  AndesiteBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Andesite for &f37.50 &cMums'
+    - name:&9Buy Andesite
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:1;5
+      - amount:32
+    PriceType: MONEY
+    Price: 37.50
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  AndesiteBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Andesite for &f75 &cMums'
+    - name:&9Buy Andesite
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:1;5
+      - amount:64
+    PriceType: MONEY
+    Price: 75
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  Andesite1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Andesite'
+    - 'lore1:&cClick &aRed &cto sell 1 Andesite'
+    - name:&9Buy Andesite
+    - amount:1
+    - type:1;5
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  Andesite2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Andesite'
+    - 'lore1:&cClick &aRed &cto sell 32 Andesite'
+    - name:&9Buy Andesite
+    - amount:32
+    - type:1;5
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  Andesite3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Andesite'
+    - 'lore1:&cClick &aRed &cto sell 64 Andesite'
+    - name:&9Buy Andesite
+    - amount:64
+    - type:1;5
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    
+  AndesiteSell3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto sell 64 Andesite for &f10 &cMums'
+    - name:&9Sell Andesite
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: MONEY
+    Reward: 8
+    PriceType: ITEM
+    Price:
+    - - type:1;5 
+      - amount:10
+    Message: '&eYou just sold &f%price%&e!'
+    ExtraPermission: ''
+    InventoryLocation: 33

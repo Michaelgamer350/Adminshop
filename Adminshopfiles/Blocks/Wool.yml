@@ -1,0 +1,117 @@
+ShopName: Wool
+DisplayName: '&9&lWool'
+Command: wool
+signs:
+  text: '[Wool]'
+  NeedPermissionToCreateSign: true
+shop:
+  WoolBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Wool for &f2.34 &cMums'
+    - name:&9Buy Wool
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:WOOL
+      - amount:1
+    PriceType: MONEY
+    Price: 2.34
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  WoolBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Wool for &f75 &cMums'
+    - name:&9Buy Wool
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:WOOL
+      - amount:32
+    PriceType: MONEY
+    Price: 75
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  WoolBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Wool for &f150 &cMums'
+    - name:&9Buy Wool
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:WOOL
+      - amount:64
+    PriceType: MONEY
+    Price: 150
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  Wool1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Wool'
+    - 'lore1:&cClick &aRed &cto sell 1 Wool'
+    - name:&9Buy Wool
+    - amount:1
+    - type:WOOL
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  Wool2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Wool'
+    - 'lore1:&cClick &aRed &cto sell 32 Wool'
+    - name:&9Buy Wool
+    - amount:32
+    - type:WOOL
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  Wool3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Wool'
+    - 'lore1:&cClick &aRed &cto sell 64 Wool'
+    - name:&9Buy Wool
+    - amount:64
+    - type:WOOL
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    
+  WoolSell3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto sell 64 Wool for &f30 &cMums'
+    - name:&9Sell Wool
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: MONEY
+    Reward: 30
+    PriceType: ITEM
+    Price:
+    - - type:WOOL 
+      - amount:64
+    Message: '&eYou just sold &f%price%&e!'
+    ExtraPermission: ''
+    InventoryLocation: 33

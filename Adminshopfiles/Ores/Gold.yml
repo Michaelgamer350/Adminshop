@@ -1,0 +1,120 @@
+ShopName: Gold
+DisplayName: '&9&lGold'
+Command: gold
+signs:
+  text: '[Gold]'
+  NeedPermissionToCreateSign: true
+shop:
+  GoldBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Gold for &f3.13 &cMums'
+    - name:&9Buy Gold
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:GOLD_INGOT
+      - amount:1
+    PriceType: MONEY
+    Price: 3.13
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  GoldBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Gold for &f100 &cMums'
+    - name:&9Buy Gold
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:GOLD_INGOT
+      - amount:32
+    PriceType: MONEY
+    Price: 100
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  GoldBuy3:
+    MenuItem:
+    #read the comment on iron. In short, I felt that the costs were too low.
+    - 'lore1:&bLeft Click &cto buy 64 Gold for &f200 &cMums'
+    - name:&9Buy Gold
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:GOLD_INGOT
+      - amount:64
+    PriceType: MONEY
+    Price: 200
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  Gold1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Gold'
+    - 'lore1:&cClick &aRed &cto sell 1 Gold'
+    - name:&9Buy Gold
+    - amount:1
+    - type:GOLD_INGOT
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  Gold2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Gold'
+    - 'lore1:&cClick &aRed &cto sell 32 Gold'
+    - name:&9Buy Gold
+    - amount:32
+    - type:GOLD_INGOT
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  Gold3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Gold'
+    - 'lore1:&cClick &aRed &cto sell 64 Gold'
+    - name:&9Buy Gold
+    - amount:64
+    - type:GOLD_INGOT
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    
+  GoldSell3:
+    MenuItem:
+    #raised the price to be a quarter of the server selling price. any lower would be ridiculous for
+    #A rare, nonrenewable ore
+    - 'lore1:&bLeft Click &cto sell 64 Gold for &f50 &cMums'
+    - name:&9Sell Gold
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: MONEY
+    Reward: 50
+    PriceType: ITEM
+    Price:
+    - - type:GOLD_INGOT 
+      - amount:64
+    Message: '&eYou just sold &f%price%&e!'
+    ExtraPermission: ''
+    InventoryLocation: 33

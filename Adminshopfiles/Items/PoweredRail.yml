@@ -1,0 +1,117 @@
+ShopName: PoweredRail
+DisplayName: '&9&lPowered Rail'
+Command: poweredrail
+signs:
+  text: '[Powered Rail]'
+  NeedPermissionToCreateSign: true
+shop:
+  PoweredRailBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Powered Rail for &f1.95 &cMums'
+    - name:&9Buy Powered Rail
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:GOLDEN_RAIL
+      - amount:1
+    PriceType: MONEY
+    Price: 1.95
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  PoweredRailBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Powered Rails for &f62.50 &cMums'
+    - name:&9Buy Powered Rail
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:GOLDEN_RAIL
+      - amount:32
+    PriceType: MONEY
+    Price: 62.50
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  PoweredRailBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Powered Rails for &f125 &cMums'
+    - name:&9Buy Powered Rail
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:GOLDEN_RAIL
+      - amount:64
+    PriceType: MONEY
+    Price: 125
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  PoweredRail1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Powered Rail'
+    - 'lore1:&cClick &aRed &cto sell 1 Powered Rail'
+    - name:&9Buy Powered Rail
+    - amount:1
+    - type:GOLDEN_RAIL
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  PoweredRail2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Powered Rails'
+    - 'lore1:&cClick &aRed &cto sell 32 Powered Rails'
+    - name:&9Buy Powered Rail
+    - amount:32
+    - type:GOLDEN_RAIL
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  PoweredRail3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Powered Rails'
+    - 'lore1:&cClick &aRed &cto sell 64 Powered Rails'
+    - name:&9Buy Powered Rail
+    - amount:64
+    - type:GOLDEN_RAIL
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    
+  PoweredRailSell3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto sell 64 Powered Rails for &f40 &cMums'
+    - name:&9Sell Powered Rail
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: MONEY
+    Reward: 40
+    PriceType: ITEM
+    Price:
+    - - type:GOLDEN_RAIL 
+      - amount:64
+    Message: '&eYou just sold &f%price%&e!'
+    ExtraPermission: ''
+    InventoryLocation: 33

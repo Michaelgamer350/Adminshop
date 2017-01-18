@@ -1,0 +1,37 @@
+ShopName: Bow
+DisplayName: '&9&lBow'
+Command: bow
+signs:
+  text: '[Bow]'
+  NeedPermissionToCreateSign: true
+shop:
+  BowBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Bow for &f15 &cMums'
+    - name:&9Buy Bow
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:BOW
+      - amount:1
+    PriceType: MONEY
+    Price: 15
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  Bow1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Bow'
+    - 'lore1:&cClick &aRed &cto sell 1 Bow'
+    - name:&9Buy Bow
+    - amount:1
+    - type:BOW
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+

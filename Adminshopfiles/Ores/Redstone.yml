@@ -1,0 +1,118 @@
+ShopName: Redstone
+DisplayName: '&9&lRedstone'
+Command: redstone
+signs:
+  text: '[Redstone]'
+  NeedPermissionToCreateSign: true
+shop:
+  RedstoneBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Redstone for &f1.18 &cMums'
+    - name:&9Buy Redstone
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:REDSTONE
+      - amount:1
+    PriceType: MONEY
+    Price: 1.18
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  RedstoneBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Redstone for &f37.50 &cMums'
+    - name:&9Buy Redstone
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:REDSTONE
+      - amount:32
+    PriceType: MONEY
+    Price: 37.50
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  RedstoneBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Redstone for &f75 &cMums'
+    - name:&9Buy Redstone
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:REDSTONE
+      - amount:64
+    PriceType: MONEY
+    Price: 75
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  Redstone1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Redstone'
+    - 'lore1:&cClick &aRed &cto sell 1 Redstone'
+    - name:&9Buy Redstone
+    - amount:1
+    - type:REDSTONE
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  Redstone2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Redstone'
+    - 'lore1:&cClick &aRed &cto sell 32 Redstone'
+    - name:&9Buy Redstone
+    - amount:32
+    - type:REDSTONE
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  Redstone3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Redstone'
+    - 'lore1:&cClick &aRed &cto sell 64 Redstone'
+    - name:&9Buy Redstone
+    - amount:64
+    - type:REDSTONE
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    
+  RedstoneSell3:
+    MenuItem:
+    #With fortune contributing such a heavy impact this value needs to be lower.
+    - 'lore1:&bLeft Click &cto sell 64 Redstone for &f25 &cMums'
+    - name:&9Sell Redstone
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: MONEY
+    Reward: 25
+    PriceType: ITEM
+    Price:
+    - - type:REDSTONE 
+      - amount:64
+    Message: '&eYou just sold &f%price%&e!'
+    ExtraPermission: ''
+    InventoryLocation: 33

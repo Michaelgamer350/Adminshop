@@ -1,0 +1,117 @@
+ShopName: Rail
+DisplayName: '&9&lRail'
+Command: rail
+signs:
+  text: '[Rail]'
+  NeedPermissionToCreateSign: true
+shop:
+  RailBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Rail for &f1.17 &cMums'
+    - name:&9Buy Rail
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:RAIL
+      - amount:1
+    PriceType: MONEY
+    Price: 1.17
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  RailBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Rails for &f37.50 &cMums'
+    - name:&9Buy Rail
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:RAIL
+      - amount:32
+    PriceType: MONEY
+    Price: 37.50
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  RailBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Rails for &f75 &cMums'
+    - name:&9Buy Rail
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:RAIL
+      - amount:64
+    PriceType: MONEY
+    Price: 60
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  Rail1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Rail'
+    - 'lore1:&cClick &aRed &cto sell 1 Rail'
+    - name:&9Buy Rail
+    - amount:1
+    - type:RAIL
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  Rail2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Rails'
+    - 'lore1:&cClick &aRed &cto sell 32 Rails'
+    - name:&9Buy Rail
+    - amount:32
+    - type:RAIL
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  Rail3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Rails'
+    - 'lore1:&cClick &aRed &cto sell 64 Rails'
+    - name:&9Buy Rail
+    - amount:64
+    - type:RAIL
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    
+  RailSell3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto sell 64 Rails for &f30 &cMums'
+    - name:&9Sell Rail
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: MONEY
+    Reward: 30
+    PriceType: ITEM
+    Price:
+    - - type:RAIL 
+      - amount:64
+    Message: '&eYou just sold &f%price%&e!'
+    ExtraPermission: ''
+    InventoryLocation: 33

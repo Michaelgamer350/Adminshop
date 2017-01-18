@@ -1,0 +1,117 @@
+ShopName: Diorite
+DisplayName: '&9&lDiorite'
+Command: diorite
+signs:
+  text: '[Diorite]'
+  NeedPermissionToCreateSign: true
+shop:
+  DioriteBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Diorite for &f1.17 &cMums'
+    - name:&9Buy Diorite
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:1;3
+      - amount:1
+    PriceType: MONEY
+    Price: 1.17
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  DioriteBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Diorite for &f37.50 &cMums'
+    - name:&9Buy Diorite
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:1;3
+      - amount:32
+    PriceType: MONEY
+    Price: 37.50
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  DioriteBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Diorite for &f75 &cMums'
+    - name:&9Buy Diorite
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:1;3
+      - amount:64
+    PriceType: MONEY
+    Price: 75
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  Diorite1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Diorite'
+    - 'lore1:&cClick &aRed &cto sell 1 Diorite'
+    - name:&9Buy Diorite
+    - amount:1
+    - type:1;3
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  Diorite2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Diorite'
+    - 'lore1:&cClick &aRed &cto sell 32 Diorite'
+    - name:&9Buy Diorite
+    - amount:32
+    - type:1;3
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  Diorite3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Diorite'
+    - 'lore1:&cClick &aRed &cto sell 64 Diorite'
+    - name:&9Buy Diorite
+    - amount:64
+    - type:1;3
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    
+  DioriteSell3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto sell 64 Diorite for &f10 &cMums'
+    - name:&9Sell Diorite
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: MONEY
+    Reward: 8
+    PriceType: ITEM
+    Price:
+    - - type:1;3 
+      - amount:10
+    Message: '&eYou just sold &f%price%&e!'
+    ExtraPermission: ''
+    InventoryLocation: 33

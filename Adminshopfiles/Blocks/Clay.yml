@@ -1,0 +1,117 @@
+ShopName: Clay
+DisplayName: '&9&lClay'
+Command: clay
+signs:
+  text: '[Clay]'
+  NeedPermissionToCreateSign: true
+shop:
+  ClayBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Clay for &f4 &cMums'
+    - name:&9Buy Clay
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:CLAY
+      - amount:1
+    PriceType: MONEY
+    Price: 4
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  ClayBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Clay for &f128 &cMums'
+    - name:&9Buy Clay
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:CLAY
+      - amount:32
+    PriceType: MONEY
+    Price: 128
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  ClayBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Clay for &f256 &cMums'
+    - name:&9Buy Clay
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:CLAY
+      - amount:64
+    PriceType: MONEY
+    Price: 256
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  Clay1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Clay'
+    - 'lore1:&cClick &aRed &cto sell 1 Clay'
+    - name:&9Buy Clay
+    - amount:1
+    - type:CLAY
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  Clay2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Clay'
+    - 'lore1:&cClick &aRed &cto sell 32 Clay'
+    - name:&9Buy Clay
+    - amount:32
+    - type:CLAY
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  Clay3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Clay'
+    - 'lore1:&cClick &aRed &cto sell 64 Clay'
+    - name:&9Buy Clay
+    - amount:64
+    - type:CLAY
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    
+  ClaySell3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto sell 64 Clay for &f64 &cMums'
+    - name:&9Sell Clay
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: MONEY
+    Reward: 64
+    PriceType: ITEM
+    Price:
+    - - type:CLAY 
+      - amount:64
+    Message: '&eYou just sold &f%price%&e!'
+    ExtraPermission: ''
+    InventoryLocation: 33

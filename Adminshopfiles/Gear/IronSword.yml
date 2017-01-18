@@ -1,0 +1,37 @@
+ShopName: IronSword
+DisplayName: '&9&lIron Sword'
+Command: ironsword
+signs:
+  text: '[Iron Sword]'
+  NeedPermissionToCreateSign: true
+shop:
+  IronSwordBuy1:
+    MenuItem:
+    #If iron ore is 2.75 per 1, then this is a far more reasonable price for a sword.
+    - 'lore1:&bClick &cto buy 1 Iron Sword for &f7.50 &cMums'
+    - name:&9Buy Iron Sword
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:IRON_SWORD
+      - amount:1
+    PriceType: MONEY
+    Price: 7.50
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  IronSword1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Iron Sword'
+    - 'lore1:&cClick &aRed &cto sell 1 Iron Sword'
+    - name:&9Buy Iron Sword
+    - amount:1
+    - type:IRON_SWORD
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14

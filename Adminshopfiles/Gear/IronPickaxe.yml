@@ -1,0 +1,37 @@
+ShopName: IronPickaxe
+DisplayName: '&9&lIron Pickaxe'
+Command: ironpickaxe
+signs:
+  text: '[Iron Pickaxe]'
+  NeedPermissionToCreateSign: true
+shop:
+  IronPickaxeBuy1:
+    MenuItem:
+    #See iron sword comment
+    - 'lore1:&bClick &cto buy 1 Iron Pickaxe for &f10 &cMums'
+    - name:&9Buy Iron Pickaxe
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:IRON_PICKAXE
+      - amount:1
+    PriceType: MONEY
+    Price: 10
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  IronPickaxe1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Iron Pickaxe'
+    - 'lore1:&cClick &aRed &cto sell 1 Iron Pickaxe'
+    - name:&9Buy Iron Pickaxe
+    - amount:1
+    - type:IRON_PICKAXE
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14

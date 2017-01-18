@@ -1,0 +1,117 @@
+ShopName: WoodPlanks
+DisplayName: '&9&lWood Planks'
+Command: woodplanks
+signs:
+  text: '[Wood Planks]'
+  NeedPermissionToCreateSign: true
+shop:
+  WoodPlanksBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 wood plank for &f1.06 &cMums'
+    - name:&9Buy Wood Planks
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:PLANKS
+      - amount:1
+    PriceType: MONEY
+    Price: 1.06
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  WoodPlanksBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 wood plank for &f30 &cMums'
+    - name:&9Buy Wood Planks
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:PLANKS
+      - amount:32
+    PriceType: MONEY
+    Price: 30
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  WoodPlanksBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Wood Planks for &f60 &cMums'
+    - name:&9Buy Wood Planks
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:PLANKS
+      - amount:64
+    PriceType: MONEY
+    Price: 60
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  WoodPlanks1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 wood plank'
+    - 'lore1:&cClick &aRed &cto sell 1 wood plank'
+    - name:&9Buy Wood Planks
+    - amount:1
+    - type:PLANKS
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  WoodPlanks2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 wood planks'
+    - 'lore1:&cClick &aRed &cto sell 32 wood planks'
+    - name:&9Buy Wood Planks
+    - amount:32
+    - type:PLANKS
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  WoodPlanks3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 wood planks'
+    - 'lore1:&cClick &aRed &cto sell 64 wood planks'
+    - name:&9Buy Wood Planks
+    - amount:64
+    - type:PLANKS
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    
+  WoodPlanksSell3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto sell 64 wood planks for &f8 &cMums'
+    - name:&9Sell Wood Planks
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: MONEY
+    Reward: 8
+    PriceType: ITEM
+    Price:
+    - - type:PLANKS 
+      - amount:64
+    Message: '&eYou just sold &f%price%&e!'
+    ExtraPermission: ''
+    InventoryLocation: 33

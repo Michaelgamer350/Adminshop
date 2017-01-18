@@ -1,0 +1,101 @@
+ShopName: Emerald
+DisplayName: '&9&lEmerald'
+Command: emerald
+signs:
+  text: '[Emerald]'
+  NeedPermissionToCreateSign: true
+shop:
+  EmeraldBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Emerald for &f200 &cMums'
+    - name:&9Buy Emerald
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:EMERALD
+      - amount:1
+    PriceType: MONEY
+    Price: 200
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  EmeraldBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Emeralds for &f6,400 &cMums'
+    - name:&9Buy Emerald
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:EMERALD
+      - amount:32
+    PriceType: MONEY
+    Price: 6400
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  EmeraldBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Emeralds for &12,800 &cMums'
+    - name:&9Buy Emerald
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:EMERALD
+      - amount:64
+    PriceType: MONEY
+    Price: 12800
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  Emerald1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Emerald'
+    - 'lore1:&cClick &aRed &cto sell 1 Emerald'
+    - name:&9Buy Emerald
+    - amount:1
+    - type:EMERALD
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  Emerald2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Emeralds'
+    - 'lore1:&cClick &aRed &cto sell 32 Emeralds'
+    - name:&9Buy Emerald
+    - amount:32
+    - type:EMERALD
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  Emerald3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Emeralds'
+    - 'lore1:&cClick &aRed &cto sell 64 Emeralds'
+    - name:&9Buy Emerald
+    - amount:64
+    - type:EMERALD
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    

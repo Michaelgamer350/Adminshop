@@ -1,0 +1,117 @@
+ShopName: Granite
+DisplayName: '&9&lGranite'
+Command: granite
+signs:
+  text: '[Granite]'
+  NeedPermissionToCreateSign: true
+shop:
+  GraniteBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Granite for &f1.17 &cMums'
+    - name:&9Buy Granite
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:1;1
+      - amount:1
+    PriceType: MONEY
+    Price: 1.17
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  GraniteBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Granite for &f37.50 &cMums'
+    - name:&9Buy Granite
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:1;1
+      - amount:32
+    PriceType: MONEY
+    Price: 37.50
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  GraniteBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Granite for &f75 &cMums'
+    - name:&9Buy Granite
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:1;1
+      - amount:64
+    PriceType: MONEY
+    Price: 75
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  Granite1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Granite'
+    - 'lore1:&cClick &aRed &cto sell 1 Granite'
+    - name:&9Buy Granite
+    - amount:1
+    - type:1;1
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  Granite2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Granite'
+    - 'lore1:&cClick &aRed &cto sell 32 Granite'
+    - name:&9Buy Granite
+    - amount:32
+    - type:1;1
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  Granite3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Granite'
+    - 'lore1:&cClick &aRed &cto sell 64 Granite'
+    - name:&9Buy Granite
+    - amount:64
+    - type:1;1
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    
+  GraniteSell3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto sell 64 Granite for &f10 &cMums'
+    - name:&9Sell Granite
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: MONEY
+    Reward: 8
+    PriceType: ITEM
+    Price:
+    - - type:1;1 
+      - amount:10
+    Message: '&eYou just sold &f%price%&e!'
+    ExtraPermission: ''
+    InventoryLocation: 33

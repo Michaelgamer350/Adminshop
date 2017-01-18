@@ -1,0 +1,118 @@
+ShopName: LapisLazuli
+DisplayName: '&9&lLapis Lazuli'
+Command: lapislazuli
+signs:
+  text: '[Lapis Lazuli]'
+  NeedPermissionToCreateSign: true
+shop:
+  LapisLazuliBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Lapis Lazuli for &f2.22 &cMums'
+    - name:&9Buy Lapis Lazuli
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:351;4
+      - amount:1
+    PriceType: MONEY
+    Price: 2.22
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  LapisLazuliBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Lapis Lazuli for &f71 &cMums'
+    - name:&9Buy Lapis Lazuli
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:351;4
+      - amount:32
+    PriceType: MONEY
+    Price: 71
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  LapisLazuliBuy3:
+    MenuItem:
+    #Because of the demand for lapis I raised the price by 14
+    - 'lore1:&bLeft Click &cto buy 64 Lapis Lazuli for &f142 &cMums'
+    - name:&9Buy Lapis Lazuli
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:351;4
+      - amount:64
+    PriceType: MONEY
+    Price: 142
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  LapisLazuli1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Lapis Lazuli'
+    - 'lore1:&cClick &aRed &cto sell 1 Lapis Lazuli'
+    - name:&9Buy Lapis Lazuli
+    - amount:1
+    - type:351;4
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  LapisLazuli2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Lapis Lazuli'
+    - 'lore1:&cClick &aRed &cto sell 32 Lapis Lazuli'
+    - name:&9Buy Lapis Lazuli
+    - amount:32
+    - type:351;4
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  LapisLazuli3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Lapis Lazuli'
+    - 'lore1:&cClick &aRed &cto sell 64 Lapis Lazuli'
+    - name:&9Buy Lapis Lazuli
+    - amount:64
+    - type:351;4
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    
+  LapisLazuliSell3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto sell 64 Lapis Lazuli for &f40 &cMums'
+    - name:&9Sell Lapis Lazuli
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: MONEY
+    Reward: 40
+    PriceType: ITEM
+    Price:
+    - - type:351;4 
+      - amount:64
+    Message: '&eYou just sold &f%price%&e!'
+    ExtraPermission: ''
+    InventoryLocation: 33

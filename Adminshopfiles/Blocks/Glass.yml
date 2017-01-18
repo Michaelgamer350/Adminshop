@@ -1,0 +1,117 @@
+ShopName: Glass
+DisplayName: '&9&lGlass'
+Command: Glass
+signs:
+  text: '[Glass]'
+  NeedPermissionToCreateSign: true
+shop:
+  GlassBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Glass for &f2 &cMums'
+    - name:&9Buy Glass
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:GLASS
+      - amount:1
+    PriceType: MONEY
+    Price: 2
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  GlassBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Glass for &f64 &cMums'
+    - name:&9Buy Glass
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:GLASS
+      - amount:32
+    PriceType: MONEY
+    Price: 64
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  GlassBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Glass for &f128 &cMums'
+    - name:&9Buy Glass
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:GLASS
+      - amount:64
+    PriceType: MONEY
+    Price: 128
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  Glass1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Glass'
+    - 'lore1:&cClick &aRed &cto sell 1 Glass'
+    - name:&9Buy Glass
+    - amount:1
+    - type:GLASS
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  Glass2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Glass'
+    - 'lore1:&cClick &aRed &cto sell 32 Glass'
+    - name:&9Buy Glass
+    - amount:32
+    - type:GLASS
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  Glass3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Glass'
+    - 'lore1:&cClick &aRed &cto sell 64 Glass'
+    - name:&9Buy Glass
+    - amount:64
+    - type:GLASS
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    
+  GlassSell3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto sell 64 Glass for &f25 &cMums'
+    - name:&9Sell Glass
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: MONEY
+    Reward: 25
+    PriceType: ITEM
+    Price:
+    - - type:GLASS
+      - amount:64
+    Message: '&eYou just sold &f%price%&e!'
+    ExtraPermission: ''
+    InventoryLocation: 33

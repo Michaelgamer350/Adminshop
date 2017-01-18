@@ -1,0 +1,101 @@
+ShopName: Arrow
+DisplayName: '&9&lArrow'
+Command: arrow
+signs:
+  text: '[Arrow]'
+  NeedPermissionToCreateSign: true
+shop:
+  ArrowBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Arrow for &f0.50 &cMums'
+    - name:&9Buy Arrow
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:ARROW
+      - amount:1
+    PriceType: MONEY
+    Price: 0.50
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  ArrowBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Arrows for &f16 &cMums'
+    - name:&9Buy Arrow
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:ARROW
+      - amount:32
+    PriceType: MONEY
+    Price: 16
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  ArrowBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Arrows for &f32 &cMums'
+    - name:&9Buy Arrow
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:ARROW
+      - amount:64
+    PriceType: MONEY
+    Price: 32
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  Arrow1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Arrow'
+    - 'lore1:&cClick &aRed &cto sell 1 Arrow'
+    - name:&9Buy Arrow
+    - amount:1
+    - type:ARROW
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  Arrow2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Arrows'
+    - 'lore1:&cClick &aRed &cto sell 32 Arrows'
+    - name:&9Buy Arrow
+    - amount:32
+    - type:ARROW
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  Arrow3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Arrows'
+    - 'lore1:&cClick &aRed &cto sell 64 Arrows'
+    - name:&9Buy Arrow
+    - amount:64
+    - type:ARROW
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+

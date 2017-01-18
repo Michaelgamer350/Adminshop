@@ -1,0 +1,117 @@
+ShopName: Sand
+DisplayName: '&9&lSand'
+Command: sand
+signs:
+  text: '[Sand]'
+  NeedPermissionToCreateSign: true
+shop:
+  SandBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Sand for &f0.16 &cMums'
+    - name:&9Buy Sand
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:SAND
+      - amount:1
+    PriceType: MONEY
+    Price: 0.16
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  SandBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Sand for &f5 &cMums'
+    - name:&9Buy Sand
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:SAND
+      - amount:32
+    PriceType: MONEY
+    Price: 5
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  SandBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Sand for &f10 &cMums'
+    - name:&9Buy Sand
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:SAND
+      - amount:64
+    PriceType: MONEY
+    Price: 10
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  Sand1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Sand'
+    - 'lore1:&cClick &aRed &cto sell 1 Sand'
+    - name:&9Buy Sand
+    - amount:1
+    - type:SAND
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  Sand2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Sand'
+    - 'lore1:&cClick &aRed &cto sell 32 Sand'
+    - name:&9Buy Sand
+    - amount:32
+    - type:SAND
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  Sand3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Sand'
+    - 'lore1:&cClick &aRed &cto sell 64 Sand'
+    - name:&9Buy Sand
+    - amount:64
+    - type:SAND
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    
+  SandSell3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto sell 64 Sand for &f5 &cMums'
+    - name:&9Sell Sand
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: MONEY
+    Reward: 5
+    PriceType: ITEM
+    Price:
+    - - type:SAND 
+      - amount:64
+    Message: '&eYou just sold &f%price%&e!'
+    ExtraPermission: ''
+    InventoryLocation: 33

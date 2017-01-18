@@ -1,0 +1,101 @@
+ShopName: Leather
+DisplayName: '&9&lLeather'
+Command: leather
+signs:
+  text: '[Leather]'
+  NeedPermissionToCreateSign: true
+shop:
+  LeatherBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Leather for &f2.35 &cMums'
+    - name:&9Buy Leather
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:LEATHER
+      - amount:1
+    PriceType: MONEY
+    Price: 2.35
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  LeatherBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Leather for &f75 &cMums'
+    - name:&9Buy Leather
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:LEATHER
+      - amount:32
+    PriceType: MONEY
+    Price: 75
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  LeatherBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Leather for &f150 &cMums'
+    - name:&9Buy Leather
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:LEATHER
+      - amount:64
+    PriceType: MONEY
+    Price: 150
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  Leather1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Leather'
+    - 'lore1:&cClick &aRed &cto sell 1 Leather'
+    - name:&9Buy Leather
+    - amount:1
+    - type:LEATHER
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  Leather2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Leather'
+    - 'lore1:&cClick &aRed &cto sell 32 Leather'
+    - name:&9Buy Leather
+    - amount:32
+    - type:LEATHER
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  Leather3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Leather'
+    - 'lore1:&cClick &aRed &cto sell 64 Leather'
+    - name:&9Buy Leather
+    - amount:64
+    - type:LEATHER
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+

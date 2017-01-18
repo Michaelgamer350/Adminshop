@@ -1,0 +1,36 @@
+ShopName: DiamondSword
+DisplayName: '&9&lDiamond Sword'
+Command: diamondsword
+signs:
+  text: '[Diamond Sword]'
+  NeedPermissionToCreateSign: true
+shop:
+  DiamondSwordBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Diamond Sword for &f185 &cMums'
+    - name:&9Buy Diamond Sword
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:DIAMOND_SWORD
+      - amount:1
+    PriceType: MONEY
+    Price: 185
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  DiamondSword1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Diamond Sword'
+    - 'lore1:&cClick &aRed &cto sell 1 Diamond Sword'
+    - name:&9Buy Diamond Sword
+    - amount:1
+    - type:DIAMOND_SWORD
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14

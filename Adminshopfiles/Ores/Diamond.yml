@@ -1,0 +1,120 @@
+ShopName: Diamond
+DisplayName: '&9&lDiamond'
+Command: diamond
+signs:
+  text: '[Diamond]'
+  NeedPermissionToCreateSign: true
+shop:
+  DiamondBuy1:
+    MenuItem:
+    #I raised the cost of diamond by 5 because I felt the cost was still WAY too low to justify
+    #This was after getting a few player's opinions on the matter after the fact. I would raise it to 100, but
+    #That might be after this thing drops on the server
+    - 'lore1:&bClick &cto buy 1 Diamond for &f80 &cMums'
+    - name:&9Buy Diamond
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:DIAMOND
+      - amount:1
+    PriceType: MONEY
+    Price: 80
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  DiamondBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Diamonds for &f2560 &cMums'
+    - name:&9Buy Diamond
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:DIAMOND
+      - amount:32
+    PriceType: MONEY
+    Price: 2560
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  DiamondBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Diamonds for &f5120 &cMums'
+    - name:&9Buy Diamond
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:DIAMOND
+      - amount:64
+    PriceType: MONEY
+    Price: 5120
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  Diamond1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Diamond'
+    - 'lore1:&cClick &aRed &cto sell 1 Diamond'
+    - name:&9Buy Diamond
+    - amount:1
+    - type:DIAMOND
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  Diamond2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Diamonds'
+    - 'lore1:&cClick &aRed &cto sell 32 Diamonds'
+    - name:&9Buy Diamond
+    - amount:32
+    - type:DIAMOND
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  Diamond3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Diamonds'
+    - 'lore1:&cClick &aRed &cto sell 64 Diamonds'
+    - name:&9Buy Diamond
+    - amount:64
+    - type:DIAMOND
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    
+  DiamondSell3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto sell 1 Diamonds for &f30 &cMums'
+    - name:&9Sell Diamond
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: MONEY
+    Reward: 30
+    PriceType: ITEM
+    Price:
+    - - type:DIAMOND 
+      - amount:1
+    Message: '&eYou just sold &f%price%&e!'
+    ExtraPermission: ''
+    InventoryLocation: 33

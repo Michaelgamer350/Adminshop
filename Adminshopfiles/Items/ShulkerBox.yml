@@ -1,0 +1,26 @@
+ShopName: Shulker Box
+DisplayName: '&9&lShulker Box'
+Command: shulkerbox
+signs:
+  text: '[Shulker Box]'
+  NeedPermissionToCreateSign: true
+shop:
+  Shulker BoxSell3:
+    MenuItem:
+    #I nerfed the shulker box sale price. 125 per box is ridiculous because the drop rate for shulker shells is 50%.
+    #I set it to a more appropriate price for players
+    #If players abuse this cost I might remove it completely
+    - 'lore1:&bLeft Click &cto sell 1 Shulker Box for &f50 &cMums'
+    - name:&9Sell Shulker Box
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: MONEY
+    Reward: 50
+    PriceType: ITEM
+    Price:
+    - - type:PURPLE_SHULKER_BOX 
+      - amount:64
+    Message: '&eYou just sold &f%price%&e!'
+    ExtraPermission: ''
+    InventoryLocation: 33

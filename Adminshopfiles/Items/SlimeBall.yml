@@ -1,0 +1,117 @@
+ShopName: SlimeBall
+DisplayName: '&9&lSlime Ball'
+Command: slimeball
+signs:
+  text: '[Slime Ball]'
+  NeedPermissionToCreateSign: true
+shop:
+  SlimeBallBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Slime Balls for &f13.28 &cMums'
+    - name:&9Buy Slime Balls
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:SLIME_BALL
+      - amount:1
+    PriceType: MONEY
+    Price: 13.28
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  SlimeBallBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Slime Balls for &f425 &cMums'
+    - name:&9Buy Slime Balls
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:SLIME_BALL
+      - amount:32
+    PriceType: MONEY
+    Price: 425
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  SlimeBallBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Slime Balls for &f850 &cMums'
+    - name:&9Buy Slime Balls
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:SLIME_BALL
+      - amount:64
+    PriceType: MONEY
+    Price: 850
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  SlimeBall1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Slime Ball'
+    - 'lore1:&cClick &aRed &cto sell 1 Slime Ball'
+    - name:&9Buy Slime Ball
+    - amount:1
+    - type:SLIME_BALL
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  SlimeBall2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Slime Balls'
+    - 'lore1:&cClick &aRed &cto sell 32 Slime Balls'
+    - name:&9Buy Slime Balls
+    - amount:32
+    - type:SLIME_BALL
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  SlimeBall3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Slime Balls'
+    - 'lore1:&cClick &aRed &cto sell 64 Slime Balls'
+    - name:&9Buy Slime Balls
+    - amount:64
+    - type:SLIME_BALL
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    
+  SlimeBallSell3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto sell 64 Slime Balls for &f250 &cMums'
+    - name:&9Sell Slime Balls
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: MONEY
+    Reward: 250
+    PriceType: ITEM
+    Price:
+    - - type:SLIME_BALL 
+      - amount:64
+    Message: '&eYou just sold &f%price%&e!'
+    ExtraPermission: ''
+    InventoryLocation: 33

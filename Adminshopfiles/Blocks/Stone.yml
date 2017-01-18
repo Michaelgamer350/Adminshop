@@ -1,0 +1,117 @@
+ShopName: Stone
+DisplayName: '&9&lStone'
+Command: stone
+signs:
+  text: '[Stone]'
+  NeedPermissionToCreateSign: true
+shop:
+  StoneBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Stone for &f0.94 &cMums'
+    - name:&9Buy Stone
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:STONE
+      - amount:1
+    PriceType: MONEY
+    Price: 0.94
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  StoneBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Stone for &f30 &cMums'
+    - name:&9Buy Stone
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:STONE
+      - amount:32
+    PriceType: MONEY
+    Price: 30
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  StoneBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Stone for &f60 &cMums'
+    - name:&9Buy Stone
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:STONE
+      - amount:64
+    PriceType: MONEY
+    Price: 60
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  Stone1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Stone'
+    - 'lore1:&cClick &aRed &cto sell 1 Stone'
+    - name:&9Buy Stone
+    - amount:1
+    - type:STONE
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  Stone2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Stone'
+    - 'lore1:&cClick &aRed &cto sell 32 Stone'
+    - name:&9Buy Stone
+    - amount:32
+    - type:STONE
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  Stone3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Stone'
+    - 'lore1:&cClick &aRed &cto sell 64 Stone'
+    - name:&9Buy Stone
+    - amount:64
+    - type:STONE
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    
+  StoneSell3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto sell 64 Stone for &f8 &cMums'
+    - name:&9Sell Stone
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: MONEY
+    Reward: 8
+    PriceType: ITEM
+    Price:
+    - - type:STONE 
+      - amount:64
+    Message: '&eYou just sold &f%price%&e!'
+    ExtraPermission: ''
+    InventoryLocation: 33

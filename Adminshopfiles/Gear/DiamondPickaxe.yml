@@ -1,0 +1,37 @@
+ShopName: DiamondPickaxe
+DisplayName: '&9&lDiamond Pickaxe'
+Command: diamondpickaxe
+signs:
+  text: '[Diamond Pickaxe]'
+  NeedPermissionToCreateSign: true
+shop:
+  DiamondPickaxeBuy1:
+    MenuItem:
+    #I changed the cost of diamond so I edited this by the same increment
+    - 'lore1:&bClick &cto buy 1 Diamond Pickaxe for &f275 &cMums'
+    - name:&9Buy Diamond Pickaxe
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:DIAMOND_PICKAXE
+      - amount:1
+    PriceType: MONEY
+    Price: 275
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  DiamondPickaxe1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Diamond Pickaxe'
+    - 'lore1:&cClick &aRed &cto sell 1 Diamond Pickaxe'
+    - name:&9Buy Diamond Pickaxe
+    - amount:1
+    - type:DIAMOND_PICKAXE
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14

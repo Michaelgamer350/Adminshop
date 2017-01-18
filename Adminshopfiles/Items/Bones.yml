@@ -1,0 +1,101 @@
+ShopName: Bone
+DisplayName: '&9&lBone'
+Command: bone
+signs:
+  text: '[Bone]'
+  NeedPermissionToCreateSign: true
+shop:
+  BoneBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Bone for &f0.50 &cMums'
+    - name:&9Buy Bone
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:BONE
+      - amount:1
+    PriceType: MONEY
+    Price: 0.50
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  BoneBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Bones for &f16 &cMums'
+    - name:&9Buy Bones
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:BONE
+      - amount:32
+    PriceType: MONEY
+    Price: 16
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  BoneBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Bones for &f32 &cMums'
+    - name:&9Buy Bones
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:BONE
+      - amount:64
+    PriceType: MONEY
+    Price: 32
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  Bone1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Bone'
+    - 'lore1:&cClick &aRed &cto sell 1 Bone'
+    - name:&9Buy Bone
+    - amount:1
+    - type:BONE
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  Bone2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Bones'
+    - 'lore1:&cClick &aRed &cto sell 32 Bones'
+    - name:&9Buy Bones
+    - amount:32
+    - type:BONE
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  Bone3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Bones'
+    - 'lore1:&cClick &aRed &cto sell 64 Bones'
+    - name:&9Buy Bones
+    - amount:64
+    - type:BONE
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+

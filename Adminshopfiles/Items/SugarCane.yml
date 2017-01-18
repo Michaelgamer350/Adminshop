@@ -1,0 +1,101 @@
+ShopName: SugarCane
+DisplayName: '&9&lSugar Cane'
+Command: sugarcane
+signs:
+  text: '[Sugar Cane]'
+  NeedPermissionToCreateSign: true
+shop:
+  SugarCaneBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Sugar Cane for &f0.39 &cMums'
+    - name:&9Buy Sugar Cane
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:REEDS
+      - amount:1
+    PriceType: MONEY
+    Price: 0.39
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  SugarCaneBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Sugar Cane for &f12.50 &cMums'
+    - name:&9Buy Sugar Cane
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:REEDS
+      - amount:32
+    PriceType: MONEY
+    Price: 12.50
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  SugarCaneBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Sugar Cane for &f25 &cMums'
+    - name:&9Buy Sugar Cane
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:REEDS
+      - amount:64
+    PriceType: MONEY
+    Price: 25
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  SugarCane1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Sugar Cane'
+    - 'lore1:&cClick &aRed &cto sell 1 Sugar Cane'
+    - name:&9Buy Sugar Cane
+    - amount:1
+    - type:REEDS
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  SugarCane2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Sugar Cane'
+    - 'lore1:&cClick &aRed &cto sell 32 Sugar Cane'
+    - name:&9Buy Sugar Cane
+    - amount:32
+    - type:REEDS
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  SugarCane3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Sugar Cane'
+    - 'lore1:&cClick &aRed &cto sell 64 Sugar Cane'
+    - name:&9Buy Sugar Cane
+    - amount:64
+    - type:REEDS
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+

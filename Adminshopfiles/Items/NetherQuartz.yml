@@ -1,0 +1,118 @@
+ShopName: Quartz
+DisplayName: '&9&lQuartz'
+Command: quartz
+signs:
+  text: '[Quartz]'
+  NeedPermissionToCreateSign: true
+shop:
+  QuartzBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Quartz for &f5 &cMums'
+    - name:&9Buy Quartz
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:QUARTZ
+      - amount:1
+    PriceType: MONEY
+    Price: 5
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  QuartzBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Quartz for &f160 &cMums'
+    - name:&9Buy Quartz
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:QUARTZ
+      - amount:32
+    PriceType: MONEY
+    Price: 160
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  QuartzBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Quartz for &f320 &cMums'
+    - name:&9Buy Quartz
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:QUARTZ
+      - amount:64
+    PriceType: MONEY
+    Price: 320
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  Quartz1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Quartz'
+    - 'lore1:&cClick &aRed &cto sell 1 Quartz'
+    - name:&9Buy Quartz
+    - amount:1
+    - type:QUARTZ
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  Quartz2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Quartz'
+    - 'lore1:&cClick &aRed &cto sell 32 Quartz'
+    - name:&9Buy Quartz
+    - amount:32
+    - type:QUARTZ
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  Quartz3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Quartz'
+    - 'lore1:&cClick &aRed &cto sell 64 Quartz'
+    - name:&9Buy Quartz
+    - amount:64
+    - type:QUARTZ
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+
+#I commented this out because we may WANT to add this in
+ # QuartzSell3:
+ #   MenuItem:
+ #   - 'lore1:&bLeft Click &cto sell 64 Quartz for &f8 &cMums'
+ #   - name:&9Sell Quartz
+ #   - amount:1
+ #   - type:STAINED_GLASS_PANE
+ #   - durability:14
+ #   RewardType: MONEY
+ #   Reward: 8
+ #   PriceType: ITEM
+ #   Price:
+ #   - - type:QUARTZ
+ #     - amount:64
+ #   Message: '&eYou just sold &f%price%&e!'
+ #   ExtraPermission: ''
+ #   InventoryLocation: 33

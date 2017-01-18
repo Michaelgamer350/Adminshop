@@ -1,0 +1,117 @@
+ShopName: Cobblestone
+DisplayName: '&9&lCobblestone'
+Command: cobblestone
+signs:
+  text: '[Cobblestone]'
+  NeedPermissionToCreateSign: true
+shop:
+  CobblestoneBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Cobblestone for &f0.78 &cMums'
+    - name:&9Buy Cobblestone
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:STONE
+      - amount:1
+    PriceType: MONEY
+    Price: 0.78
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  CobblestoneBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Cobblestone for &f25 &cMums'
+    - name:&9Buy Cobblestone
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:STONE
+      - amount:32
+    PriceType: MONEY
+    Price: 25
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  CobblestoneBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Cobblestone for &f50 &cMums'
+    - name:&9Buy Cobblestone
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:STONE
+      - amount:64
+    PriceType: MONEY
+    Price: 50
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  Cobblestone1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Cobblestone'
+    - 'lore1:&cClick &aRed &cto sell 1 Cobblestone'
+    - name:&9Buy Cobblestone
+    - amount:1
+    - type:COBBLESTONE
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  Cobblestone2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Cobblestone'
+    - 'lore1:&cClick &aRed &cto sell 32 Cobblestone'
+    - name:&9Buy Cobblestone
+    - amount:32
+    - type:COBBLESTONE
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  Cobblestone3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Cobblestone'
+    - 'lore1:&cClick &aRed &cto sell 64 Cobblestone'
+    - name:&9Buy Cobblestone
+    - amount:64
+    - type:COBBLESTONE
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    
+  CobblestoneSell3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto sell 64 Cobblestone for &f5 &cMums'
+    - name:&9Sell Cobblestone
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: MONEY
+    Reward: 5
+    PriceType: ITEM
+    Price:
+    - - type:COBBLESTONE
+      - amount:64
+    Message: '&eYou just sold &f%price%&e!'
+    ExtraPermission: ''
+    InventoryLocation: 33

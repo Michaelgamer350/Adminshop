@@ -1,0 +1,101 @@
+ShopName: Gunpowder
+DisplayName: '&9&lGunpowder'
+Command: gunpowder
+signs:
+  text: '[Gunpowder]'
+  NeedPermissionToCreateSign: true
+shop:
+  GunpowderBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Gunpowder for &f10&cMums'
+    - name:&9Buy Gunpowder
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:GUNPOWDER
+      - amount:1
+    PriceType: MONEY
+    Price: 10
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  GunpowderBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Gunpowder for &f320 &cMums'
+    - name:&9Buy Gunpowder
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:GUNPOWDER
+      - amount:32
+    PriceType: MONEY
+    Price: 320
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  GunpowderBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Gunpowder for &f640 &cMums'
+    - name:&9Buy Gunpowder
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:GUNPOWDER
+      - amount:64
+    PriceType: MONEY
+    Price: 640
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  Gunpowder1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Gunpowder'
+    - 'lore1:&cClick &aRed &cto sell 1 Gunpowder'
+    - name:&9Buy Gunpowder
+    - amount:1
+    - type:GUNPOWDER
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  Gunpowder2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Gunpowder'
+    - 'lore1:&cClick &aRed &cto sell 32 Gunpowder'
+    - name:&9Buy Gunpowder
+    - amount:32
+    - type:GUNPOWDER
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  Gunpowder3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Gunpowder'
+    - 'lore1:&cClick &aRed &cto sell 64 Gunpowder'
+    - name:&9Buy Gunpowder
+    - amount:64
+    - type:GUNPOWDER
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+

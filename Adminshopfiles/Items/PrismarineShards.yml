@@ -1,0 +1,100 @@
+ShopName: Prismarine Shard
+DisplayName: '&9&lPrismarine Shard'
+Command: stone
+signs:
+  text: '[Prismarine Shard]'
+  NeedPermissionToCreateSign: true
+shop:
+  PrismarineShardBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Prismarine Shard for &f11.72 &cMums'
+    - name:&9Buy Prismarine Shard
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:PRISMARINE_SHARD
+      - amount:1
+    PriceType: MONEY
+    Price: 11.72
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  PrismarineShardBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Prismarine Shards for &f375 &cMums'
+    - name:&9Buy Prismarine Shard
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:PRISMARINE_SHARD
+      - amount:32
+    PriceType: MONEY
+    Price: 375
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  PrismarineShardBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Prismarine Shards for &f750 &cMums'
+    - name:&9Buy Prismarine Shard
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:PRISMARINE_SHARD
+      - amount:64
+    PriceType: MONEY
+    Price: 750
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  PrismarineShard1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Prismarine Shard'
+    - 'lore1:&cClick &aRed &cto sell 1 Prismarine Shard'
+    - name:&9Buy Prismarine Shard
+    - amount:1
+    - type:PRISMARINE_SHARD
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  PrismarineShard2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Prismarine Shards'
+    - 'lore1:&cClick &aRed &cto sell 32 Prismarine Shards'
+    - name:&9Buy Prismarine Shard
+    - amount:32
+    - type:PRISMARINE_SHARD
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  PrismarineShard3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Prismarine Shards'
+    - 'lore1:&cClick &aRed &cto sell 64 Prismarine Shards'
+    - name:&9Buy Prismarine Shard
+    - amount:64
+    - type:PRISMARINE_SHARD
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32

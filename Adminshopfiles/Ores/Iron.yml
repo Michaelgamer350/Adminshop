@@ -1,0 +1,120 @@
+ShopName: Iron
+DisplayName: '&9&lIron'
+Command: iron
+signs:
+  text: '[Iron]'
+  NeedPermissionToCreateSign: true
+shop:
+  IronBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Iron for &f2.74 &cMums'
+    - name:&9Buy Iron
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:IRON_INGOT
+      - amount:1
+    PriceType: MONEY
+    Price: 2.74
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  IronBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Iron for &f87.50 &cMums'
+    - name:&9Buy Iron
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:IRON_INGOT
+      - amount:32
+    PriceType: MONEY
+    Price: 87.50
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  IronBuy3:
+    MenuItem:
+    #I overhauled this. 128 values each iron at 2 mums, which means at 1,500 an hour you could get extremely
+    #insane amounts of iron very quickly. This one I went out on a limb for. I did the same for gold.
+    - 'lore1:&bLeft Click &cto buy 64 Iron for &f175 &cMums'
+    - name:&9Buy Iron
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:IRON_INGOT
+      - amount:64
+    PriceType: MONEY
+    Price: 60
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  Iron1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Iron'
+    - 'lore1:&cClick &aRed &cto sell 1 Iron'
+    - name:&9Buy Iron
+    - amount:1
+    - type:IRON_INGOT
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  Iron2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Iron'
+    - 'lore1:&cClick &aRed &cto sell 32 Iron'
+    - name:&9Buy Iron
+    - amount:32
+    - type:IRON_INGOT
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  Iron3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Iron'
+    - 'lore1:&cClick &aRed &cto sell 64 Iron'
+    - name:&9Buy Iron
+    - amount:64
+    - type:IRON_INGOT
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    
+  IronSell3:
+    MenuItem:
+    #I raised this because I raised the server selling price. The gap should stay the same.
+    - 'lore1:&bLeft Click &cto sell 64 Iron for &f60 &cMums'
+    - name:&9Sell Iron
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: MONEY
+    Reward: 60
+    PriceType: ITEM
+    Price:
+    - - type:IRON_INGOT 
+      - amount:64
+    Message: '&eYou just sold &f%price%&e!'
+    ExtraPermission: ''
+    InventoryLocation: 33

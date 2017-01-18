@@ -1,0 +1,117 @@
+ShopName: PurpurBlock
+DisplayName: '&9&lPurpur Block'
+Command: purpurblock
+signs:
+  text: '[Purpur Block]'
+  NeedPermissionToCreateSign: true
+shop:
+  PurpurBlockBuy1:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 1 Purpur Block for &f1.17 &cMums'
+    - name:&9Buy Purpur Block
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:PURPUR_BLOCK
+      - amount:1
+    PriceType: MONEY
+    Price: 1.17
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 13
+
+  PurpurBlockBuy2:
+    MenuItem:
+    - 'lore1:&bClick &cto buy 32 Purpur Block for &f30 &cMums'
+    - name:&9Buy Purpur Block
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:5
+    RewardType: ITEM
+    Reward:
+    - - type:PURPUR_BLOCK
+      - amount:32
+    PriceType: MONEY
+    Price: 37.50
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 22
+    
+
+  PurpurBlockBuy3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto buy 64 Purpur Block for &f75 &cMums'
+    - name:&9Buy Purpur Block
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:1
+    RewardType: ITEM
+    Reward:
+    - - type:PURPUR_BLOCK
+      - amount:64
+    PriceType: MONEY
+    Price: 75
+    Message: '&eYou bought &f%reward%&e! Mums left: &c%left%'
+    ExtraPermission: ''
+    InventoryLocation: 31
+    
+
+  PurpurBlock1:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 1 Purpur Block'
+    - 'lore1:&cClick &aRed &cto sell 1 Purpur Block'
+    - name:&9Buy Purpur Block
+    - amount:1
+    - type:PURPUR_BLOCK
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    
+
+  PurpurBlock2:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 32 Purpur Block'
+    - 'lore1:&cClick &aRed &cto sell 32 Purpur Block'
+    - name:&9Buy Purpur Block
+    - amount:32
+    - type:PURPUR_BLOCK
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 23
+    
+
+  PurpurBlock3:
+    MenuItem:
+    - 'lore1:&cClick &aGreen &cto buy 64 Purpur Block'
+    - 'lore1:&cClick &aRed &cto sell 64 Purpur Block'
+    - name:&9Buy Purpur Block
+    - amount:64
+    - type:PURPUR_BLOCK
+    RewardType: NOTHING
+    Price: NOTHING    
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 32
+    
+  PurpurBlockSell3:
+    MenuItem:
+    - 'lore1:&bLeft Click &cto sell 64 Purpur Block for &f20 &cMums'
+    - name:&9Sell Purpur Block
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: MONEY
+    Reward: 20
+    PriceType: ITEM
+    Price:
+    - - type:PURPUR_BLOCK 
+      - amount:64
+    Message: '&eYou just sold &f%price%&e!'
+    ExtraPermission: ''
+    InventoryLocation: 33
